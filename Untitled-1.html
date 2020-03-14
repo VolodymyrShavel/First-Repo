@@ -3,18 +3,115 @@
     <head>
         <meta charset="utf-8">
         <title>CV</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            header {
+                text-align: center;
+            }
+            body {
+                font-family: "Times New Roman" 
+            }
+            nav {
+                float: left;
+                padding: 20px;
+            }
+            article {
+                text-align: center;
+            }
+            section:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                text-align: center;
+            }
+            aside {
+                text-align: left;
+            }
+        </style>
     </head>
     <body>
         <header>
-                <h1>MARCUS SMITH</h1>
-                <h2>MARKETING MANAGER</h2>
+            <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" style="width:200px;float:left">
+            <h1>MARCUS SMITH</h1>
+            <h2>MARKETING MANAGER</h2>
         </header>
-        
-        <div>
-            <div>sdafjskfjdas</div>
-            <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" width="200.em">
-        </div>
-        <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" width="200.em">
-        
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#Profile">Profile</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Sales Assistant">Sales Assistant</a></li>
+                    <li><a href="https://uk.wikipedia.org/wiki/HTML">Wiki</a></li>
+                </ul>
+            </nav>
+        </section>
+        <aside>
+            <nav>
+            <ul>
+                <h3>CONTACT</h3><hr color="powderblue">
+                <li>+353 (0)1 13 4568</li><br>
+                <li>msmith@xmail.com</li><br>
+                <li>Linkedin.com</li><br>
+                <li>Dublin, Ireland</li>
+            </ul>
+            <ol>
+                <h3>EDUCATION</h3><hr color="powderblue">
+                <li><p2><b>MBA DIPLOMA</b></p2></li>
+                Trinity College<br>
+                2016<br><br>
+                <li><p2><b>BACHELOR DEGREE</b></p2></li>
+                International Business<br>
+                Trinity College<br>
+                2004<br><br>
+                <li><p2><b>LEAVING CERTIFICATE</b></p2></li>
+                Rosemont School<br>
+                2004
+            </ol>
+            <dl>
+                <dt><h3><b>SKILLS</b></h3></dt><hr color="powderblue">
+                    <dd>- Communication</dd>
+                    <dd>- Strategy</dd>
+                    <dd>- Budget</dd>
+                    <dd>- Planning</dd>
+            </dl>
+        </aside>
+        <section>
+        <article>
+            <h2 id="Profile">Profile</h2><hr color="powderblue">
+            <p>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</p><br>
+            <h2 id="Experience">Experience</h2><hr color="powderblue">
+            <ul style="list-style-type: circle;"><p2><b>Marketing Manager</b></p2><br>
+            Company name &#8739 Dublin &#8739 2015 - present
+            
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+            </ul>
+        </section>
+        </article>
+        <footer>
+            <ul style="list-style-type: square;">
+                <p2><b>MARKETING COORDINATOR</b></p2><br>
+                Company name &#8739 Dublin &#8739 2009 - 2015<br><br>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.
+            </ul><br>
+            <ul style="list-style-type: square;">
+                <p2 id="Sales Assistant"><b>SALES ASSISTANT</b></p2>
+                Company name &#8739 Dublin &#8739 2009-2009<br>
+                Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.<br>
+                Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl.<br><br>
+                <li>Lorem ipmus dolor sit amet</li>
+                <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
+            </ul>
+        </nav>
+        </footer>
     </body>
 </html>
