@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>CV</title>
         <style>
+            body {
+                background-color: linen;
+            }
             .item1 { grid-area: header; }
             .item2 { grid-area: main; }
             .item3 { grid-area: left; }
@@ -22,13 +25,25 @@
                 padding: 8px 0;
                 font-size: 20px;
             }
+            hr {
+                color:powderblue;
+                background-color: powderblue;
+                height: 0.5px;
+            }
+            img {
+                display: inline-block;
+                width: 10em;
+                float:inline-start;
+                }
+            
         </style>
     </head>
     <body>
         <div class="grid-container">
-            <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" style="width:200px;float:inline inline-start">
+            <div class="item1"><img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty">
+            </div>
             <div class="item1"><b><h2>MARCUS SMITH</h2></b>
-            <h3>MARKETING MANAGER</h3></div>
+            <h3>MARKETING MANAGER</h3>
             <nav>
                 <ul>
                     <li><a href="#Profile">Profile</a></li>
@@ -37,16 +52,17 @@
                     <li><a href="https://uk.wikipedia.org/wiki/HTML">Wiki</a></li>
                 </ul>
             </nav>
+            </div>
             <div class="item3">
             <ul>
-                <h3>CONTACT</h3><hr color="powderblue">
+                <h3>CONTACT</h3><hr>
                 <li>+353 (0)1 13 4568</li><br>
                 <li>msmith@xmail.com</li><br>
                 <li>Linkedin.com</li><br>
                 <li>Dublin, Ireland</li>
             </ul>
             <ol>
-                <h3>EDUCATION</h3><hr color="powderblue">
+                <h3>EDUCATION</h3><hr>
                 <li><p2><b>MBA DIPLOMA</b></p2></li>
                 Trinity College<br>
                 2016<br><br>
@@ -59,7 +75,7 @@
                 2004
             </ol>
             <dl>
-                <dt></dt><h3><b>SKILLS</b></h3></dt><hr color="powderblue">
+                <dt></dt><h3><b>SKILLS</b></h3></dt><hr>
                     <dd>- Communication</dd>
                     <dd>- Strategy</dd>
                     <dd>- Budget</dd>
@@ -67,12 +83,11 @@
             </dl>
             </div>
             <div class="item2">
-            <h2 id="Profile">Profile</h2><hr color="powderblue">
+            <h2 id="Profile">Profile</h2><hr>
             <p>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</p><br>
-            <h2 id="Experience">Experience</h2><hr color="powderblue">
+            <h2 id="Experience">Experience</h2><hr>
             <ul style="list-style-type: circle;"><p2><b>Marketing Manager</b></p2><br>
             Company name &#8739 Dublin &#8739 2015 - present
-            
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
