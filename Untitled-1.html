@@ -4,39 +4,31 @@
         <meta charset="utf-8">
         <title>CV</title>
         <style>
-            header {
+            .item1 { grid-area: header; }
+            .item2 { grid-area: main; }
+            .item3 { grid-area: left; }
+            .item { grid-area: footer; }
+
+            .grid-container {
+                display: grid;
+                grid-template-areas: 
+                    'header header header header header'
+                    'left left main main main'
+                    'footer footer footer footer footer';
+            }
+
+            .grid-container > div {
                 text-align: center;
-            }
-            body {
-                font-family: "Times New Roman" 
-            }
-            nav {
-                float: left;
-                padding: 20px;
-            }
-            article {
-                text-align: center;
-            }
-            section:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            footer {
-                text-align: center;
-            }
-            aside {
-                text-align: left;
+                padding: 8px 0;
+                font-size: 20px;
             }
         </style>
     </head>
     <body>
-        <header>
-            <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" style="width:200px;float:left">
-            <h1>MARCUS SMITH</h1>
-            <h2>MARKETING MANAGER</h2>
-        </header>
-        <section>
+        <div class="grid-container">
+            <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty" style="width:200px;float:inline inline-start">
+            <div class="item1"><b><h2>MARCUS SMITH</h2></b>
+            <h3>MARKETING MANAGER</h3></div>
             <nav>
                 <ul>
                     <li><a href="#Profile">Profile</a></li>
@@ -45,9 +37,7 @@
                     <li><a href="https://uk.wikipedia.org/wiki/HTML">Wiki</a></li>
                 </ul>
             </nav>
-        </section>
-        <aside>
-            <nav>
+            <div class="item3">
             <ul>
                 <h3>CONTACT</h3><hr color="powderblue">
                 <li>+353 (0)1 13 4568</li><br>
@@ -69,15 +59,14 @@
                 2004
             </ol>
             <dl>
-                <dt><h3><b>SKILLS</b></h3></dt><hr color="powderblue">
+                <dt></dt><h3><b>SKILLS</b></h3></dt><hr color="powderblue">
                     <dd>- Communication</dd>
                     <dd>- Strategy</dd>
                     <dd>- Budget</dd>
                     <dd>- Planning</dd>
             </dl>
-        </aside>
-        <section>
-        <article>
+            </div>
+            <div class="item2">
             <h2 id="Profile">Profile</h2><hr color="powderblue">
             <p>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</p><br>
             <h2 id="Experience">Experience</h2><hr color="powderblue">
@@ -89,9 +78,6 @@
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
             </ul>
-        </section>
-        </article>
-        <footer>
             <ul style="list-style-type: square;">
                 <p2><b>MARKETING COORDINATOR</b></p2><br>
                 Company name &#8739 Dublin &#8739 2009 - 2015<br><br>
@@ -108,7 +94,7 @@
                 <li>Lorem ipmus dolor sit amet</li>
                 <li>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</li>
             </ul>
-        </nav>
-        </footer>
+            </div>
+        </div>
     </body>
 </html>
