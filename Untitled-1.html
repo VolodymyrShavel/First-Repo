@@ -6,26 +6,28 @@
         <style>
             body {
                 background-color: linen;
+                padding: 0px;
             }
-
             hr {
                 color:powderblue;
                 background-color: powderblue;
                 height: 0.5px;
                 width: 100%;
-                float: ;
             }
             header {
                 text-align: center;
-                width: 1390px;
+                position: relative;
             }
             img {
-                width: 10em;
-                float: left;
+                width: ;
+                position: relative;
+                top: 150px;
+                left: -240px;
+                max-width: 10%;
             }
             nav {
                 text-align: center;
-                width: 100;
+                width: 10;
             }
             section {
                 width: 50%;
@@ -33,10 +35,12 @@
             }
             aside {
                 width: 30;
-                padding: 10px;
+                padding: 5px;
                 float: right;
-                margin: 5px;
-                text-align: right;
+                margin: 10px;
+
+            }
+            footer {
             }
         </style>
     </head>
@@ -45,16 +49,15 @@
             <img src="https://reklamaster.com/wp-content/uploads/2019/02/Depositphotos_55572019_m-2015.jpg" alt="Hello Kitty">
             <b><h2>MARCUS SMITH</h2></b>
             <h3>MARKETING MANAGER</h3>
-        
+        </header>
         <nav>
             <ul>
-                <li><a href="#Profile">Profile</a></li>
-                <li><a href="#Experience">Experience</a></li>
+                <li id="opt1"><a href="#Profile">Profile</a></li>
+                <li id="opt2"><a href="#Experience">Experience</a></li>
                 <li><a href="#Sales Assistant">Sales Assistant</a></li>
                 <li><a href="https://uk.wikipedia.org/wiki/HTML">Wiki</a></li>
             </ul>
         </nav>
-        </header>
         <section>
             <h2 id="Profile">Profile</h2><hr>
             <p>Lorem ipmus dolor sit amet, fastidll mnesa rchum el prl. Ut ubique.</p>
@@ -112,5 +115,8 @@
                     <dd>- Planning</dd>
             </dl>
         </aside>
+        <footer>
+            <p><em><strong>Lviv 2020</strong></em></p>
+        </footer>
     </body>
 </html>
