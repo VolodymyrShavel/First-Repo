@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-transform: uppercase;
+                margin: 0;
+                font-family: verdana, sans-serif;
+            }
+            .background-image {
+                background-image: url("https://images5.alphacoders.com/296/296377.jpg");
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+            }
+            .main-rule {
+                max-width: 1600px;
+                margin: 0 auto;
+                margin-top: 30px;
+                display: flex;
+            }
+            .first-column {
+                margin-right: 5em;
+                flex-direction: column;
+            }
+            .second-column {
+                display: flex;
+                flex-direction: column;
+            }
+            header {
+                order: 1;
+            }
+            header img {
+                max-width: 27%;
+            }
+            nav {
+                font: bold 20px helvetica;
+                flex: 1;
+            }
+            nav a {
+                padding: 10px;
+                margin-bottom: 10px;
+                color: rgb(105, 105, 105);
+                width: 20%;
+            }
+            nav a:hover {
+                color: rgb(255, 206, 46);
+            }
+            a.pord {
+                color: rgb(255, 206, 46)
+            }
+            section {
+                color: rgb(255, 255, 255);
+                order: 2;
+            }
+            section h3 {
+                font-size: 2em;
+            }
+            a {
+                text-decoration: none;
+            }
+            .button-one {
+                background-color: rgb(255, 206, 46);
+                color: rgb(0, 0, 0);
+                border: 3px solid rgb(255, 206, 46);
+                padding: 14px 25px;
+                text-align: center;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .button-one:hover {
+                color: rgb(255, 255, 255)
+            }
+            .button-two {
+                background-color: transparent;
+                color: rgb(255, 255, 255);
+                border: 3px solid rgb(255, 206, 46);
+                padding: 14px 25px;
+                text-align: center;
+                font-size: 14px;
+                font-weight: bold;
+                margin-left: 2em;
+            }
+            footer img {
+                width: 150px;
+                flex: 2;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-image">
+            <div class=main-rule>
+                <div class=first-column>
+                    <header>
+                        <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-tall-logo-ps4-us-24aug19?$native_md_t$">
+                    </header>
+                    <section> 
+                    <h3>available 05.29.2020</h3>
+                    <a class="button-one" href="pre-order">pre order</a>
+                    <a class="button-two" href="trailer">trailer</a>
+                    </section>
+                </div>
+                <div class="second-column">
+                    <nav>
+                        <a href="">games&#8744</a>
+                        <a href="">about</a>
+                        <a href="">media</a>
+                        <a href="">news</a>
+                        <a class="pord" href="">pre order</a>
+                    </nav>
+                    <footer>
+                        <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-esrb-rating-image-block-01-ps4-24jan20-en-us?$native_xs_nt$">
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
