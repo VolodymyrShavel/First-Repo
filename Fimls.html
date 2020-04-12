@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table, th, td {
+                border: 1px solid #000;
+                margin-bottom: 1em;
+            }
+            .dropdown {
+                display: inline-block;
+            }
+            .dropbtn {
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: blanchedalmond;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+            section {
+                margin-right: 90%;
+            }
+            aside {
+                float: left;
+            }
+            fieldset {
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1>List of movies</h1>
+        </header>
+            <section>
+            <table>
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Cloud Atlas</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Oblivion</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>God's town</td>
+                </tr>
+            </table>
+            <form action="https://uakino.club/">
+                <fieldset>
+                    <legend>Rate:</legend>
+                    <label for="fname">Choose the best movie</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <input type="submit" value="Go to">
+                </fieldset>
+                <p>To save the document - press: <kbd>Ctrl + S</kbd></p>
+                <code>
+                    Ctrl + S
+                </code>
+            </form>
+            </section>
+            <aside>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="https://uakino.club/film/genre_drama/347-hmarniy-atlas.html">Cloud Atlas</a>
+                        <a href="https://uakino.club/film/genre-action/196-oblvon-svt-zabuttya.html">Oblivion</a>
+                    </div>
+                </div>
+            </aside>
+    </body>
+</html>

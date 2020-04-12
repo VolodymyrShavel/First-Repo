@@ -1,0 +1,268 @@
+html,
+body {
+  background-color: linen;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: oswald, sans-serif;
+}
+.pages {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+  text-align: center;
+  margin: auto;
+}
+h2 {
+  font-size: 40px;
+}
+.fp-main-layout {
+  position: relative;
+  height: 100vh;
+}
+.fp-background {
+  position: absolute;
+  background-image: url("https://images5.alphacoders.com/296/296377.jpg");
+  left: -11em;
+  height: 100vh;
+  width: 99.9vw;
+  overflow: hidden;
+}
+.fp-layout {
+  margin-top: 1.5em;
+  top: 1.5em;
+  height: 97.5vh;
+}
+.nav-links {
+  position: fixed;
+  right: 10.5em;
+  float: right;
+}
+nav a {
+  text-decoration: none;
+}
+button.nav-linka {
+  font-weight: 600;
+  font-family: oswald, sans-serif;
+}
+button.nav-linka:hover,
+.nav-linka:focus {
+  color: #fec107;
+}
+button {
+  background-color: transparent;
+  border: none;
+  color: #7c7e78;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.fp-dropdown-content {
+  display: none;
+  position: relative;
+  top: 3.5em;
+  left: 0;
+  width: 4.5 em;
+  text-align: left;
+  background-color: #000000;
+}
+.fp-dropdowna {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+}
+.fp-dropdowna a {
+  background-color: #000000;
+  margin: 0;
+  text-decoration: none;
+}
+.tlou-one {
+  padding: 18px;
+}
+.tlou-one:hover {
+  position: relative;
+  background-color: #fec107;
+  color: #000000;
+}
+.tlou-two {
+  padding: 18px;
+}
+.tlou-two:hover {
+  background-color: #fec107;
+  color: #000000;
+}
+
+.nav-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  color: #7c7e78;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+}
+.nav-link {
+  color: #7c7e78;
+}
+nav a {
+  font-weight: 700;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: #7c7e78;
+  letter-spacing: 0.5;
+  font-family: oswald, sans-serif;
+}
+.nav-link-pre {
+  position: relative;
+  margin-top: 1.4em;
+  color: #fec107;
+  text-decoration: none;
+  white-space: pre;
+}
+nav a:hover {
+  color: #fec107;
+}
+.fp-content {
+  position: absolute;
+  bottom: 7.5em;
+  left: 10.6em;
+  width: 82%;
+  text-align: left;
+}
+.fp-content .pre-order {
+  padding: 0.55em 1.13em;
+}
+.fp-content .watch-trailer {
+  padding: 0.4em 1em;
+}
+
+.a-buttons {
+  font-size: 18px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 1em;
+}
+.pre-order {
+  border: none;
+  color: #000000;
+  background: #fec107;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.pre-order:hover {
+  color: #ffffff;
+  transition: 0.2s;
+}
+.watch-trailer {
+  font-family: oswald;
+  border: 3px solid #e6b115;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 15px 0px 0px 30px;
+  letter-spacing: 0.1;
+  text-decoration: none;
+}
+.watch-trailer:hover {
+  transition: 0.2s;
+  color: rgb(0, 0, 0);
+  background-color: rgba(248, 178, 27, 0.5);
+}
+.fp-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.fp-the-last-of-us {
+  position: absolute;
+  left: 10.7em;
+  top: 5em;
+  conte
+}
+.fp-the-last-of-us img {
+  width: 29.4%;
+  float: left;
+}
+.fp-footer img {
+  width: 100%;
+}
+.The-Last-of-Us {
+  position: relative;
+  float: right;
+  width: 9.8em;
+  right: -4;
+}
+
+.sp-background {
+  position: relative;
+  background-color: #000000;
+  left: -10.1em;
+  width: 100vw;
+}
+.details-second-page {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 83vw;
+  height: 80vh;
+  padding-top: 5%;
+  text-align: left;
+}
+.sp-sector {
+  width: 100%;
+}
+.sp-text {
+  color: #ffffff;
+  width: 40em;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+p {
+  padding-bottom: 1rem;
+}
+.sp-h {
+  display: inline-block;
+  border-bottom: 4px solid #e6b115;
+  text-transform: uppercase;
+}
+.sp-text p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+.sp-sector-two img {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+section.edition {
+  display: flex;
+  flex-direction: column;
+}
+.screenshots img {
+  width: 50%;
+}
+.overview img {
+  width: 20rem;
+}
+.news img {
+  width: 40rem;
+}
+.footer-flex {
+  position: relative;
+  display: flex;
+}
+footer img {
+  width: 24;
+  height: 24;
+}

@@ -1,0 +1,149 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: oswald;
+}
+.header {
+  width: 90.5%;
+}
+.nav-main {
+}
+.nav-container {
+  display: inline;
+  float: right;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-weight: 700;
+}
+
+.nav-link {
+  position: relative;
+  margin-top: 1.4em;
+  margin-left: 40px;
+  color: #7c7e78;
+  text-decoration: none;
+  white-space: pre;
+}
+.nav-link-pre {
+  position: relative;
+  margin-top: 1.4em;
+  margin-left: 40px;
+  color: #fec107;
+  text-decoration: none;
+  white-space: pre;
+}
+nav {
+}
+nav a {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 5px;
+  color: rgb(105, 105, 105);
+  letter-spacing: 0.5;
+}
+nav a:hover {
+  color: #fec107;
+}
+
+main {
+  display: flex;
+  width: 91.5%;
+  margin: auto;
+}
+.main-content {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+.main-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+}
+.battons {
+  font-size: 18px;
+  padding: 27px 0px 0px 0px;
+}
+.batton-one {
+  border: none;
+  color: #000;
+  background: #fec107;
+  padding: 10.5px 20px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.batton-one:hover {
+  color: rgb(255, 255, 255);
+}
+.batton-two {
+  font-family: oswald;
+  border: 3px solid #e6b115;
+  background: transparent;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin: 15px 0px 0px 30px;
+  letter-spacing: 0.1;
+  font-weight: 600;
+  text-decoration: none;
+}
+.batton-two:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgba(248, 178, 27, 0.5);
+}
+.icone img {
+  height: 71vh;
+  filter: drop-shadow(0px 5px 3px black);
+}
+.first-page-background {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.first-page-background video {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.credentials img {
+  position: absolute;
+  height: 75px;
+  right: 11.5rem;
+  bottom: 7.5rem;
+}
+.first-page-footer {
+  opacity: 1;
+  bottom: 0;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.part-2 {
+  height: 100%;
+}
+.cover-page-2 {
+  padding: 10rem 0;
+}

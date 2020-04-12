@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                text-transform: uppercase;
+                margin: 0;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 16px;
+            }
+            .background-image {
+                background-image: url("https://images5.alphacoders.com/296/296377.jpg");
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+            }
+            div.container {
+                position: relative;
+                margin-top: 1.5%;
+                margin-left: 10.5em;
+                margin-right: 3.5em;
+                height: 48em;
+            }
+            header img {
+                display: inline-block;
+                margin-top: 3.2em;
+                height: 37em;
+                width: 16.4em;
+            }
+            header {
+                width: 70%;
+                float: left;
+            }
+            nav {
+                grid-template-columns: 1fr 1564 1fr;
+                word-spacing: 14px;
+                font: bold 20px;
+            }
+            section {
+                width: 70%;
+                float: left;
+            }
+            footer {
+                margin-top: 63px;
+                float: right;
+            }
+            footer img {
+                width: 150px;
+            }
+            nav a {
+                font-size: 18px;
+                padding: 5px;
+                margin-bottom: 10px;
+                color: rgb(105, 105, 105);
+                width: 20%;
+            }
+            nav a:hover {
+                color: rgb(255, 206, 46);
+            }
+            a.pord {
+                word-spacing: 0.2em;
+                color: rgb(255, 206, 46)
+            }
+            section {
+                color: rgb(255, 255, 255);
+            }
+            section h3 {
+                font-size: 2em;
+            }
+            a {
+                text-decoration: none;
+            }
+            .button-one {
+                background-color: rgb(255, 206, 46);
+                color: rgb(0, 0, 0);
+                border: 1px solid rgb(255, 206, 46);
+                padding: 11px 11px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: -1px;
+            }
+            .button-one:hover {
+                color: rgb(255, 255, 255)
+            }
+            .button-two {
+                background-color: transparent;
+                color: rgb(255, 255, 255);
+                border: 3px solid rgb(255, 206, 46);
+                padding: 10px 10px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 1.5em;
+            }
+            .button-two:hover {
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 206, 46, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-image">
+            <div class=container>
+                <header>
+                    <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-tall-logo-ps4-us-24aug19?$native_md_t$">
+                </header>
+                <section> 
+                    <h3>available 05.29.2020</h3>
+                    <a class="button-one" href="pre-order">pre order</a>
+                    <a class="button-two" href="trailer">watch trailer</a>
+                </section>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">games&#8744</a>
+                        </li>
+                        <li>
+                            <a href="">about</a>
+                        </li>
+                        <a href="">media</a>
+                        <a href="">news</a>
+                        <a class="pord" href="">pre order</a>
+                    </ul>
+                </nav>
+                <footer>
+                    <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-esrb-rating-image-block-01-ps4-24jan20-en-us?$native_xs_nt$">
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

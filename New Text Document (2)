@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first site</title>
+		<meta http-equiv="refresh" content="10">
+		<style>
+			ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333333;
+			}
+			li {float: left;}
+			li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+			}
+			li a:hover {background-color: #111111}
+			li a#t01 {display: right;}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#News">News</a></li>
+			<li><a href="#Details">Details</a></li>
+			<li><a href="#About">About</a></li>
+			<li><a href="#Care" id="t01">Care</a></li>
+		</ul>
+		<a>Hello Mr</a><br>
+		<a><b>I'm here to help you</b></a>
+		<a>Okay, what am I suppose to do?<br>
+		<h1>&#9924</h1>
+	</body>
+</html>
