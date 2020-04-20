@@ -6,10 +6,11 @@ body {
   box-sizing: border-box;
   font-family: oswald, sans-serif;
 }
+.full-site-layout {
+  width: 100%;
+  overflow-x: hidden;
+}
 .pages {
-  display: flex;
-  flex-direction: column;
-  width: 83%;
   text-align: center;
   margin: auto;
 }
@@ -23,15 +24,14 @@ h2 {
 .fp-background {
   position: absolute;
   background-image: url("https://images5.alphacoders.com/296/296377.jpg");
-  left: -11em;
   height: 100vh;
-  width: 99.9vw;
+  width: 100vw;
   overflow: hidden;
 }
 .fp-layout {
   margin-top: 1.5em;
   top: 1.5em;
-  height: 97.5vh;
+  height: 95vh;
 }
 .nav-links {
   position: fixed;
@@ -186,43 +186,43 @@ nav a:hover {
   position: absolute;
   left: 10.7em;
   top: 5em;
-  conte
 }
 .fp-the-last-of-us img {
-  width: 29.4%;
+  width: 30%;
   float: left;
 }
 .fp-footer img {
   width: 100%;
 }
 .The-Last-of-Us {
-  position: relative;
   float: right;
   width: 9.8em;
-  right: -4;
 }
 
 .sp-background {
   position: relative;
   background-color: #000000;
-  left: -10.1em;
   width: 100vw;
 }
 .details-second-page {
   position: relative;
   display: flex;
-  margin: auto;
-  width: 83vw;
-  height: 80vh;
-  padding-top: 5%;
+  margin-left: 5em;
+  width: 100vw;
+  height: 90vh;
   text-align: left;
 }
 .sp-sector {
-  width: 100%;
+  width: 50%;
+}
+.sp-background * {
+  border: 3px solid blue;
+  padding: 0;
 }
 .sp-text {
+  border: 3pd solid yellow;
   color: #ffffff;
-  width: 40em;
+  width: 35em;
   font-size: 20px;
   line-height: 1.5em;
 }
@@ -238,9 +238,12 @@ p {
   font-size: 20px;
   line-height: 1.5em;
 }
+.sp-sector-two {
+  border: 3px solid blue;
+  display: inline-block;
+}
 .sp-sector-two img {
-  position: absolute;
-  width: 60%;
+  width: 100%;
   height: 100%;
   right: 0;
   top: 0;
